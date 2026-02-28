@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony LERAY | Data Analyst</title>
+    <style>
+        /* --- STYLE GÉNÉRAL --- */
+        body {
+            background-color: #010409; /* Fond très sombre style GitHub */
+            color: #c9d1d9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* --- NAVIGATION --- */
+        nav {
+            background-color: rgba(13, 17, 23, 0.95);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: flex-end;
+            border-bottom: 1px solid #30363d;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #c9d1d9;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #58a6ff;
+        }
+
+        /* --- CONTENEUR --- */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* --- HEADER --- */
+        header {
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #8b949e;
+            margin-bottom: 20px;
+        }
+
+        /* --- L'ENCADRÉ (LA CARD) --- */
+        .custom-card {
+            background-color: #0d1117; /* Fond de l'encadré */
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .custom-card h2 {
+            margin-top: 0;
+            color: #ffffff;
+            border-bottom: 2px solid #21262d;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: "▹";
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        /* --- BOUTON CV --- */
+        .btn-cv {
+            display: inline-block;
+            background-color: #6e40c9;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#projets">Projets</a>
+    </nav>
+
+    <div class="container">
+        
+        <header id="accueil">
+            <h1>Anthony LERAY</h1>
+            <p class="subtitle">📊 Data Analyst | Expert en gestion de projet</p>
+            <a href="#" class="btn-cv">📄 Télécharger mon CV</a>
+        </header>
+
+        <section id="a-propos">
+            <div class="custom-card">
+                <h2>À propos de moi</h2>
+                <p>
+                    Après avoir travaillé dans le secteur de l’accompagnement, j’ai choisi de me reconvertir vers la data. 
+                    Mon parcours est marqué par une solide expérience en gestion de projet au sein du bassin d'emploi de Rennes.
+                </p>
+                <ul>
+                    <li><strong>Préparation & Nettoyage :</strong> Python (Pandas/NumPy), SQL.</li>
+                    <li><strong>Visualisation :</strong> Power BI, Excel avancé.</li>
+                    <li><strong>Modélisation :</strong> SQL Power Architect, SQLite Studio.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projets" style="margin-top: 50px;">
+            <h2>Mes Projets</h2>
+            <p>Ici, tu pourras ajouter tes analyses de données à venir...</p>
+        </section>
+
+    </div>
+
+</body>
+</html>
